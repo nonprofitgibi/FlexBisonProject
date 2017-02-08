@@ -11,7 +11,7 @@
 [A-Z]+				{return STREET_NAME; }
 [a-z]{2}			{return STREET_TYPE; }
 [0-9]{5}			{return ZIPCODE; }
-[ \t]				;
+\s				;
 
 %%
 
