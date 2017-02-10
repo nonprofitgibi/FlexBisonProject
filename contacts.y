@@ -27,8 +27,8 @@
 file:	contact
 |	contact file
 ;
-contact: NAME NAME PHONE EMAIL STREET_NUM STREET_NAME STREET_TYPE ZIPCODE
-	{printf("Name: %s\tName: %s\tPhone: %s\tEmail: %s\tStreet num: %s\tStreet name: %s\tStreet type: %s\tZipcode: %s\n",$1,$2,$3,$4,$5,$6,$7,$8);}
+contact: NAME NAME STREET_NUM STREET_NAME STREET_TYPE ZIPCODE
+	{printf("Name: %s\tName: %s\tStreet num: %s\tStreet name: %s\tStreet type: %s\tZipcode: %s\n",$1,$2,$3,$4,$5,$6);}
 
 %%
 int main(int argc, char* argv[]){
