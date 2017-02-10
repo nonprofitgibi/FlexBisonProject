@@ -3,7 +3,7 @@
 }
 
 %union {
-	char *sValue
+	char *sValue;
 }
 
 %start file
